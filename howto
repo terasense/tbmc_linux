@@ -1,0 +1,8 @@
+Configure:
+petalinux-config -c kernel
+petalinux-config -c rootfs
+
+Useful links:
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842475/PetaLinux+Yocto+Tips
+
+

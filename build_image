@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source /opt/pkg/petalinux/settings.sh 
+
+petalinux-config --get-hw-description=../tbmc_mz/tbmc_mz.sdk/
+petalinux-build
+petalinux-package --boot --format BIN --fsbl zynq_fsbl.elf --u-boot --fpga ../tbmc_mz/tbmc_mz.runs/impl_1/design_1_wrapper.bit --force
+
