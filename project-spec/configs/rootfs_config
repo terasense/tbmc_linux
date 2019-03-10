@@ -4136,6 +4136,11 @@ CONFIG_peekpoke=y
 CONFIG_rdtest=y
 
 #
+# libs 
+#
+CONFIG_libmmio=y
+
+#
 # user packages 
 #
 

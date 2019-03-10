@@ -1,5 +1,13 @@
+Create new project:
+petalinux-create --type project --template zynq
+
 Configure:
 petalinux-config -c kernel
+petalinux-config -c rootfs
+
+Create C application:
+petalinux-create -t apps --template c --name <name>
+petalinux-build -c <name>
 petalinux-config -c rootfs
 
 Useful links:

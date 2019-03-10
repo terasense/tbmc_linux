@@ -1,0 +1,5 @@
+#!/bin/bash
+
+petalinux-build
+petalinux-package --boot --format BIN --fsbl images/linux/zynq_fsbl.elf --u-boot --fpga ../tbmc_mz/tbmc_mz.runs/impl_1/design_1_wrapper.bit --force
+
