@@ -1,0 +1,8 @@
+#!/bin/bash
+
+VOL_NAME=ZYNQ
+VOL_PATH="/run/media/$USER/$VOL_NAME"
+
+cp -f images/linux/image.ub images/linux/BOOT.BIN $VOL_PATH
+umount $VOL_PATH
+
