@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#
+# Build linux image.
+# Don't forget to export hardware in Vivado before running this script.
+#
+
 source /opt/pkg/petalinux/settings.sh 
 mkdir project-spec/hw-description/
 petalinux-config --get-hw-description=../tbmc_mz/tbmc_mz.sdk/
