@@ -1020,7 +1020,7 @@ CONFIG_python-json=y
 # CONFIG_python-curses is not set
 # CONFIG_python-misc is not set
 # CONFIG_python-tests is not set
-# CONFIG_python-netserver is not set
+CONFIG_python-netserver=y
 # CONFIG_python-multiprocessing is not set
 # CONFIG_python-syslog is not set
 # CONFIG_python-pprint is not set
