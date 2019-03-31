@@ -1,0 +1,3 @@
+[submodule "project-spec/meta-user/recipes-apps/tsapi/files/tbmc_api"]
+	path = project-spec/meta-user/recipes-apps/tsapi/files/tbmc_api
+	url = git@github.com:terasense/tbmc_api.git

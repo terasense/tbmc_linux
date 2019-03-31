@@ -4134,6 +4134,7 @@ CONFIG_netcat=y
 CONFIG_gpiopoll=y
 CONFIG_peekpoke=y
 CONFIG_rdtest=y
+CONFIG_tsapi=y
 
 #
 # libs 
