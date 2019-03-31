@@ -2,6 +2,7 @@ Create new project:
 petalinux-create --type project --template zynq
 
 Configure:
+petalinux-config
 petalinux-config -c kernel
 petalinux-config -c rootfs
 
